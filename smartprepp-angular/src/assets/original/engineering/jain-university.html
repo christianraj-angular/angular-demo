@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jain University, Bangalore – SmartPrepp</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif; }
+    body { background: #f8f9fc; color: #111827; }
+
+    header {
+      background: #ffffff;
+      padding: 16px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    header h2 { color: #5b21b6; }
+    nav a {
+      margin-left: 24px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 14px;
+      color: #1f2937;
+    }
+    nav a:hover { color: #5b21b6; }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(90deg, #5b21b6, #7c3aed);
+      color: #ffffff;
+      padding: 70px 8%;
+    }
+    .hero h1 { font-size: 34px; margin-bottom: 6px; }
+    .hero p { opacity: 0.95; font-size: 15px; }
+    .breadcrumb { font-size: 13px; margin-bottom: 10px; opacity: 0.9; }
+    .breadcrumb a { color: #e5e7ff; text-decoration: none; }
+
+    /* LAYOUT */
+    .wrap {
+      padding: 50px 8%;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 40px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 26px;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+    }
+    .card h2 { color: #4c1d95; font-size: 22px; margin-bottom: 10px; }
+    .card h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; }
+    .card p { font-size: 14px; line-height: 1.7; color: #4b5563; }
+    .card ul { margin-left: 18px; margin-top: 6px; color: #4b5563; font-size: 14px; }
+    .card li { margin-bottom: 4px; }
+
+    .tag {
+      display: inline-block;
+      background: #eef2ff;
+      color: #4c1d95;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-right: 5px;
+    }
+
+    aside .box {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 22px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+      font-size: 14px;
+      color: #4b5563;
+    }
+    aside h3 { color: #4c1d95; font-size: 17px; margin-bottom: 8px; }
+    aside strong { color: #111827; }
+    aside a { color: #2563eb; text-decoration: none; font-size: 13px; }
+
+    .btn {
+      display: inline-block;
+      margin-top: 14px;
+      background: #5b21b6;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .btn:hover { background: #7c3aed; }
+
+    footer {
+      background: #111827;
+      color: #9ca3af;
+      padding: 26px 8%;
+      text-align: center;
+      font-size: 13px;
+    }
+
+    @media (max-width: 960px) {
+      .wrap { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <h2>SmartPrepp</h2>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About</a>
+    <a href="../colleges.html">Colleges</a>
+    <a href="../contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="breadcrumb">
+    <a href="../index.html">Home</a> ›
+    <a href="../colleges.html">Colleges</a> ›
+    Jain University
+  </div>
+  <h1>Jain University, Bangalore</h1>
+  <p>A leading private university in Karnataka known for strong engineering,
+     business and liberal studies programs.</p>
+</section>
+
+<main class="wrap">
+  <!-- MAIN CONTENT -->
+  <article class="card">
+    <div style="margin-bottom: 14px;">
+      <span class="tag">Engineering College</span>
+      <span class="tag">Karnataka</span>
+      <span class="tag">Private University</span>
+    </div>
+
+    <h2>College Overview</h2>
+    <p>
+      Jain University (Deemed-to-be University) is a well-known private institution
+      based in Bengaluru. The university is recognised for its focus on industry-ready
+      curriculum, entrepreneurship and research-driven learning. Its Faculty of
+      Engineering & Technology offers a wide range of B.Tech and M.Tech programs.
+    </p>
+
+    <h3>Popular Engineering Programs</h3>
+    <ul>
+      <li>B.Tech – Computer Science & Engineering</li>
+      <li>B.Tech – Information Science & Engineering</li>
+      <li>B.Tech – Electronics & Communication Engineering</li>
+      <li>B.Tech – Mechanical Engineering</li>
+      <li>B.Tech – Aerospace Engineering</li>
+      <li>M.Tech specialisations in emerging technologies</li>
+    </ul>
+
+    <h3>Admission Process</h3>
+    <p>
+      B.Tech admissions are primarily done through <strong>Jain Entrance Test (JET)</strong>
+      and also consider national-level exams where applicable. Short-listed candidates
+      are invited for counselling and branch allocation based on merit and preference.
+    </p>
+
+    <h3>Highlights</h3>
+    <ul>
+      <li>NAAC A+ accredited university with strong academic reputation</li>
+      <li>Industry-oriented curriculum with project-based learning</li>
+      <li>Active incubation and entrepreneurship support</li>
+      <li>Good placement record with IT and core engineering companies</li>
+      <li>Vibrant campus life with clubs, sports and cultural activities</li>
+    </ul>
+
+    <h3>Why SmartPrepp for Jain University?</h3>
+    <ul>
+      <li>Guidance on JET application and important timelines</li>
+      <li>Profile-based counselling to choose the right engineering branch</li>
+      <li>Support with scholarship / fee-structure clarification</li>
+      <li>End-to-end assistance till admission confirmation</li>
+    </ul>
+
+    <a href="../contact.html" class="btn">Talk to an Expert →</a>
+  </article>
+
+  <!-- SIDEBAR -->
+  <aside>
+   
+    <div class="box" style="padding: 0; overflow: hidden;">
+      <img src="../assets/images/jain-campus.jpg"
+           alt="Jain University Campus"
+           style="width:100%; height:auto; display:block; border-radius:18px;" />
+    </div>
+  
+
+    <div class="box">
+      <h3>Quick Facts</h3>
+      <p><strong>Location:</strong> Bengaluru, Karnataka</p>
+      <p><strong>Established:</strong> 1990 (as an institute, later Deemed University)</p>
+      <p><strong>University Type:</strong> Deemed-to-be University</p>
+      <p><strong>Entrance Exam:</strong> JET / relevant national-level exams</p>
+    </div>
+
+    <div class="box">
+      <h3>Official Website</h3>
+      <a href="https://www.jainuniversity.ac.in" target="_blank">www.jainuniversity.ac.in</a>
+    </div>
+
+    <div class="box">
+      <h3>Need Guidance?</h3>
+      <p>Let SmartPrepp help you plan admissions to Jain University.</p>
+      <a href="../contact.html" class="btn">Request Callback</a>
+    </div>
+  </aside>
+</main>
+
+<footer>
+  © 2025 SmartPrepp. All rights reserved.
+</footer>
+</body>
+</html>

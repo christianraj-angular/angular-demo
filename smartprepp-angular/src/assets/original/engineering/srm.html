@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SRM Institute of Science & Technology – SmartPrepp</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:"Poppins",sans-serif;}
+    body{background:#f8f9fc;color:#111827}
+
+    header{
+      background:#fff;
+      padding:16px 8%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      box-shadow:0 4px 18px rgba(0,0,0,.06);
+      position:sticky;top:0;z-index:50;
+    }
+    header h2{color:#5b21b6}
+    nav a{
+      margin-left:24px;
+      text-decoration:none;
+      font-weight:500;
+      font-size:14px;
+      color:#1f2937;
+    }
+    nav a:hover{color:#5b21b6}
+
+    .hero{
+      background:linear-gradient(90deg,#5b21b6,#7c3aed);
+      color:#fff;
+      padding:70px 8%;
+    }
+    .hero h1{font-size:34px;margin-bottom:6px}
+    .hero p{opacity:.95;font-size:15px}
+    .breadcrumb{font-size:13px;margin-bottom:10px;opacity:.9}
+    .breadcrumb a{color:#e5e7ff;text-decoration:none}
+
+    .wrap{
+      padding:50px 8%;
+      display:grid;
+      grid-template-columns:2fr 1fr;
+      gap:40px;
+    }
+    .card{
+      background:#fff;
+      border-radius:18px;
+      padding:26px;
+      box-shadow:0 10px 25px rgba(15,23,42,.06);
+    }
+    .card h2{color:#4c1d95;font-size:22px;margin-bottom:10px}
+    .card h3{font-size:18px;margin-top:20px;margin-bottom:8px}
+    .card p{font-size:14px;line-height:1.7;color:#4b5563}
+    .card ul{margin-left:18px;margin-top:6px;color:#4b5563;font-size:14px}
+
+    .tag{
+      display:inline-block;
+      background:#eef2ff;
+      color:#4c1d95;
+      padding:4px 10px;
+      border-radius:999px;
+      font-size:11px;
+      font-weight:600;
+      margin-right:5px;
+    }
+
+    aside .box{
+      background:#fff;
+      border-radius:18px;
+      padding:22px;
+      margin-bottom:20px;
+      box-shadow:0 10px 25px rgba(15,23,42,.06);
+      font-size:14px;
+      color:#4b5563;
+    }
+    aside h3{color:#4c1d95;font-size:17px;margin-bottom:8px}
+
+    .btn{
+      display:inline-block;
+      margin-top:14px;
+      background:#5b21b6;
+      color:#fff;
+      padding:10px 20px;
+      border-radius:999px;
+      text-decoration:none;
+      font-size:13px;
+      font-weight:600;
+    }
+    .btn:hover{background:#7c3aed}
+
+    footer{
+      background:#111827;
+      color:#9ca3af;
+      padding:26px 8%;
+      text-align:center;
+      font-size:13px;
+    }
+
+    @media(max-width:960px){
+      .wrap{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2>SmartPrepp</h2>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About</a>
+    <a href="../colleges.html">Colleges</a>
+    <a href="../contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="breadcrumb">
+    <a href="../index.html">Home</a> ›
+    <a href="../colleges.html">Colleges</a> ›
+    SRM IST
+  </div>
+  <h1>SRM Institute of Science & Technology (SRMIST)</h1>
+  <p>A premier private university in India known for engineering excellence</p>
+</section>
+
+<main class="wrap">
+
+  <!-- MAIN -->
+  <article class="card">
+    <span class="tag">Engineering College</span>
+    <span class="tag">Tamil Nadu</span>
+    <span class="tag">Top Private University</span>
+
+    <h2>College Overview</h2>
+    <p>
+      SRM Institute of Science & Technology (SRMIST) is a leading private deemed
+      university headquartered in Kattankulathur, Tamil Nadu. It offers world-class
+      education with strong industry partnerships and international exposure.
+    </p>
+
+    <h3>Popular Engineering Programs</h3>
+    <ul>
+      <li>B.Tech – CSE, AI, Data Science, Cyber Security</li>
+      <li>B.Tech – ECE, Mechanical, Civil</li>
+      <li>M.Tech & interdisciplinary programs</li>
+      <li>Research-driven Ph.D programs</li>
+    </ul>
+
+    <h3>Admission Process</h3>
+    <p>
+      Admissions to B.Tech programs are based on <strong>SRMJEEE</strong>.
+      Candidates apply online and participate in counselling rounds.
+    </p>
+
+    <h3>Highlights</h3>
+    <ul>
+      <li>Multiple campuses across India</li>
+      <li>Strong placement record with top MNCs</li>
+      <li>Modern hostels & research labs</li>
+      <li>International exchange programs</li>
+    </ul>
+
+    <h3>Why SmartPrepp for SRM?</h3>
+    <ul>
+      <li>SRMJEEE preparation guidance</li>
+      <li>Branch & campus selection support</li>
+      <li>Counselling assistance</li>
+      <li>Complete admission support</li>
+    </ul>
+
+    <a href="../contact.html" class="btn">Talk to an Expert →</a>
+  </article>
+
+  <!-- SIDEBAR -->
+  <aside>
+
+    <!-- IMAGE -->
+    <div class="box" style="padding:0;overflow:hidden">
+      <img src="../assets/images/srm-campus.jpg"
+           alt="SRM Campus"
+           style="width:100%;display:block">
+    </div>
+
+    <div class="box">
+      <h3>Quick Facts</h3>
+      <p><strong>Location:</strong> Kattankulathur, TN</p>
+      <p><strong>Established:</strong> 1985</p>
+      <p><strong>Type:</strong> Deemed University</p>
+      <p><strong>Entrance:</strong> SRMJEEE</p>
+    </div>
+
+    <div class="box">
+      <h3>Official Website</h3>
+      <a href="https://www.srmist.edu.in" target="_blank">www.srmist.edu.in</a>
+    </div>
+
+    <div class="box">
+      <h3>Need Guidance?</h3>
+      <p>Let SmartPrepp guide you in SRM admissions.</p>
+      <a href="../contact.html" class="btn">Request Callback</a>
+    </div>
+
+  </aside>
+
+</main>
+
+<footer>
+  © 2025 SmartPrepp. All rights reserved.
+</footer>
+
+</body>
+</html>

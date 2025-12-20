@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manipal University – SmartPrepp</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:"Poppins",sans-serif;}
+    body{background:#f8f9fc;color:#111827}
+
+    header{
+      background:#fff;
+      padding:16px 8%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      box-shadow:0 4px 18px rgba(0,0,0,.06);
+      position:sticky;top:0;z-index:50;
+    }
+    header h2{color:#5b21b6}
+    nav a{
+      margin-left:24px;
+      text-decoration:none;
+      font-weight:500;
+      font-size:14px;
+      color:#1f2937;
+    }
+    nav a:hover{color:#5b21b6}
+
+    .hero{
+      background:linear-gradient(90deg,#5b21b6,#7c3aed);
+      color:#fff;
+      padding:70px 8%;
+    }
+    .hero h1{font-size:34px;margin-bottom:6px}
+    .hero p{opacity:.95;font-size:15px}
+    .breadcrumb{font-size:13px;margin-bottom:10px;opacity:.9}
+    .breadcrumb a{color:#e5e7ff;text-decoration:none}
+
+    .wrap{
+      padding:50px 8%;
+      display:grid;
+      grid-template-columns:2fr 1fr;
+      gap:40px;
+    }
+    .card{
+      background:#fff;
+      border-radius:18px;
+      padding:26px;
+      box-shadow:0 10px 25px rgba(15,23,42,.06);
+    }
+    .card h2{color:#4c1d95;font-size:22px;margin-bottom:10px}
+    .card h3{font-size:18px;margin-top:20px;margin-bottom:8px}
+    .card p{font-size:14px;line-height:1.7;color:#4b5563}
+    .card ul{margin-left:18px;margin-top:6px;color:#4b5563;font-size:14px}
+
+    .tag{
+      display:inline-block;
+      background:#eef2ff;
+      color:#4c1d95;
+      padding:4px 10px;
+      border-radius:999px;
+      font-size:11px;
+      font-weight:600;
+      margin-right:5px;
+    }
+
+    aside .box{
+      background:#fff;
+      border-radius:18px;
+      padding:22px;
+      margin-bottom:20px;
+      box-shadow:0 10px 25px rgba(15,23,42,.06);
+      font-size:14px;
+      color:#4b5563;
+    }
+    aside h3{color:#4c1d95;font-size:17px;margin-bottom:8px}
+
+    .btn{
+      display:inline-block;
+      margin-top:14px;
+      background:#5b21b6;
+      color:#fff;
+      padding:10px 20px;
+      border-radius:999px;
+      text-decoration:none;
+      font-size:13px;
+      font-weight:600;
+    }
+    .btn:hover{background:#7c3aed}
+
+    footer{
+      background:#111827;
+      color:#9ca3af;
+      padding:26px 8%;
+      text-align:center;
+      font-size:13px;
+    }
+
+    @media(max-width:960px){
+      .wrap{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2>SmartPrepp</h2>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About</a>
+    <a href="../colleges.html">Colleges</a>
+    <a href="../contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="breadcrumb">
+    <a href="../index.html">Home</a> ›
+    <a href="../colleges.html">Colleges</a> ›
+    Manipal University
+  </div>
+  <h1>Manipal Academy of Higher Education (MAHE)</h1>
+  <p>A globally recognized private institute known for academic excellence</p>
+</section>
+
+<main class="wrap">
+
+  <!-- MAIN -->
+  <article class="card">
+    <span class="tag">Engineering College</span>
+    <span class="tag">Karnataka</span>
+    <span class="tag">Deemed University</span>
+
+    <h2>College Overview</h2>
+    <p>
+      Manipal Academy of Higher Education (MAHE) is a renowned private deemed university
+      located in Manipal, Karnataka. Established in 1953, MAHE is known for its academic
+      quality, global collaborations, and industry-focused education.
+    </p>
+
+    <h3>Popular Engineering Programs</h3>
+    <ul>
+      <li>B.Tech – Computer Science & Engineering</li>
+      <li>B.Tech – AI & Machine Learning</li>
+      <li>B.Tech – Data Science</li>
+      <li>B.Tech – Electronics & Communication</li>
+      <li>B.Tech – Mechanical & Civil Engineering</li>
+      <li>M.Tech & Research Programs</li>
+    </ul>
+
+    <h3>Admission Process</h3>
+    <p>
+      Admissions to B.Tech programs are through <strong>MET (Manipal Entrance Test)</strong>.
+      Qualified students are invited for counselling and seat allotment.
+    </p>
+
+    <h3>Highlights</h3>
+    <ul>
+      <li>International campuses & partnerships</li>
+      <li>Strong alumni network worldwide</li>
+      <li>Excellent placement opportunities</li>
+      <li>Modern infrastructure & hostels</li>
+    </ul>
+
+    <h3>Why SmartPrepp for Manipal?</h3>
+    <ul>
+      <li>MET exam & counselling guidance</li>
+      <li>Branch and budget-based planning</li>
+      <li>Campus selection assistance</li>
+      <li>Complete admission process support</li>
+    </ul>
+
+    <a href="../contact.html" class="btn">Talk to an Expert →</a>
+  </article>
+
+  <!-- SIDEBAR -->
+  <aside>
+
+    <div class="box" style="padding:0;overflow:hidden">
+      <img src="../assets/images/manipal-campus.jpg"
+           alt="Manipal University Campus"
+           style="width:100%;display:block">
+    </div>
+
+    <div class="box">
+      <h3>Quick Facts</h3>
+      <p><strong>Location:</strong> Manipal, Karnataka</p>
+      <p><strong>Established:</strong> 1953</p>
+      <p><strong>University Type:</strong> Deemed University</p>
+      <p><strong>Entrance Exam:</strong> MET</p>
+    </div>
+
+    <div class="box">
+      <h3>Official Website</h3>
+      <a href="https://manipal.edu" target="_blank">www.manipal.edu</a>
+    </div>
+
+    <div class="box">
+      <h3>Need Guidance?</h3>
+      <p>Let SmartPrepp guide you in Manipal admissions.</p>
+      <a href="../contact.html" class="btn">Request Callback</a>
+    </div>
+
+  </aside>
+
+</main>
+
+<footer>
+  © 2025 SmartPrepp. All rights reserved.
+</footer>
+
+</body>
+</html>

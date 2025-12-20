@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colleges | Smart Prepp</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              600: "#7C3AED",
+              700: "#6D28D9"
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- ================= NAVBAR ================= -->
+<header class="bg-white shadow sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="index.html" class="text-xl font-bold text-brand-600">Smart Prepp</a>
+
+    <nav class="hidden md:flex space-x-8 font-semibold">
+      <a href="index.html" class="hover:text-brand-600">Home</a>
+      <a href="about.html" class="hover:text-brand-600">About Us</a>
+      <a href="colleges.html" class="text-brand-600">Colleges</a>
+      <a href="contact.html" class="hover:text-brand-600">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="bg-gradient-to-r from-brand-600 to-brand-700 text-white py-24">
+  <div class="max-w-6xl mx-auto px-6">
+    <h1 class="text-5xl font-extrabold mb-4">Explore Top Colleges</h1>
+    <p class="text-lg opacity-90">
+      Choose your stream to explore colleges and admission guidance
+    </p>
+  </div>
+</section>
+
+<!-- ================= CATEGORY CARDS ================= -->
+<section class="py-20">
+  <div class="max-w-7xl mx-auto px-6 grid sm:grid-cols-1 md:grid-cols-2 gap-12">
+
+    <!-- ENGINEERING -->
+    <a href="engineering/index.html"
+       class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition p-10">
+      <h3 class="text-2xl font-bold mb-4 text-brand-600">
+        Engineering Colleges
+      </h3>
+      <p class="text-slate-600 mb-6 leading-relaxed">
+        Admissions support for top engineering institutes offering
+        B.Tech, M.Tech and diploma programs across India.
+      </p>
+      <span
+        class="inline-block bg-brand-600 text-white px-6 py-2 rounded-full text-sm font-semibold">
+        Explore Engineering →
+      </span>
+    </a>
+
+    <!-- MEDICAL -->
+    <a href="medical.html"
+       class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition p-10">
+      <h3 class="text-2xl font-bold mb-4 text-brand-600">
+        Medical Colleges
+      </h3>
+      <p class="text-slate-600 mb-6 leading-relaxed">
+        Guidance for medical aspirants seeking MBBS, BDS
+        and allied healthcare programs.
+      </p>
+      <span
+        class="inline-block bg-brand-600 text-white px-6 py-2 rounded-full text-sm font-semibold">
+        Explore Medical →
+      </span>
+    </a>
+
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="bg-gradient-to-r from-brand-600 to-brand-700 text-white py-20 text-center">
+  <h2 class="text-3xl font-bold mb-4">
+    Need Help Choosing the Right College?
+  </h2>
+  <p class="mb-8 text-lg opacity-90">
+    Our experts will guide you through the complete admission process.
+  </p>
+  <a href="contact.html"
+     class="inline-block bg-white text-brand-600 font-semibold px-10 py-4 rounded-full shadow hover:scale-105 transition">
+    Talk to an Expert →
+  </a>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-slate-900 text-slate-300 py-12">
+  <div class="max-w-7xl mx-auto px-6 text-center text-sm">
+    © 2025 Smart Prepp. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>

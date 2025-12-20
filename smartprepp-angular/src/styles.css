@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { font-family: 'Inter', sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
+
+/* REMOVED ALL OPACITY/TRANSFORM ANIMATIONS TO FIX VISIBILITY */
+
+.step-card { background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%); }
+.custom-table th { background-color: #2e1065; color: white; }
+.custom-table tr:nth-child(even) { background-color: #f5f3ff; }
+
+html { scroll-behavior: smooth; }

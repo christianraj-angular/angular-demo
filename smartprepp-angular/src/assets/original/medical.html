@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Medical Colleges | SmartPrepp</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:Poppins,sans-serif; }
+    body { background:#f8f9fc; color:#111827; }
+
+    header {
+      background:#fff;
+      padding:16px 8%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      box-shadow:0 4px 18px rgba(0,0,0,.06);
+      position:sticky; top:0; z-index:50;
+    }
+    header h2 { color:#5b21b6 }
+    nav a {
+      margin-left:24px;
+      text-decoration:none;
+      font-weight:500;
+      font-size:14px;
+      color:#1f2937;
+    }
+    nav a:hover { color:#5b21b6 }
+
+    .hero {
+      background:linear-gradient(90deg,#5b21b6,#7c3aed);
+      color:#fff;
+      padding:70px 8%;
+    }
+    .hero h1 { font-size:34px; margin-bottom:6px }
+    .hero p { opacity:.95; font-size:15px }
+
+    .container {
+      padding:60px 8%;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:30px;
+    }
+
+    .college-card {
+      background:#fff;
+      border-radius:16px;
+      padding:24px;
+      box-shadow:0 10px 25px rgba(15,23,42,.06);
+    }
+    .college-card h3 { color:#4c1d95; margin-bottom:8px }
+    .college-card p { font-size:14px; color:#4b5563; line-height:1.6 }
+
+    .read-more {
+      display:inline-block;
+      margin-top:14px;
+      font-size:13px;
+      font-weight:600;
+      color:#5b21b6;
+      text-decoration:none;
+    }
+
+    footer {
+      background:#111827;
+      color:#9ca3af;
+      padding:26px 8%;
+      text-align:center;
+      font-size:13px;
+    }
+  </style>
+</head>
+
+
+<body>
+
+<header>
+<h2>SmartPrepp</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="colleges.html">Colleges</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+
+<section class="hero">
+  <h1>Medical Colleges</h1>
+  <p>Explore top medical universities across India</p>
+</section>
+
+<!-- ✅ ONLY THIS SECTION GROWS -->
+<section class="container">
+
+  <div class="college-card">
+    <h3>Rajarajeshwari Medical College and Hospital</h3>
+    <p>Reputed medical college in Bangalore offering MBBS and PG programs.</p>
+    <a href="medical/rajarajeshwari.html" class="read-more">Read More →</a>
+  </div>
+
+  <div class="college-card">
+    <h3>Bharati Vidyapeeth Medical College</h3>
+    <p>Deemed university with strong medical education and hospital training.</p>
+    <a href="medical/bharati-vidyapeeth.html" class="read-more">Read More →</a>
+  </div>
+
+  <div class="college-card">
+    <h3>D. Y. Patil Medical College</h3>
+    <p>Well-known private medical institute with modern infrastructure.</p>
+    <a href="medical/dy-patil.html" class="read-more">Read More →</a>
+  </div>
+
+  <div class="college-card">
+    <h3>Mahatma Gandhi Missions Medical College, Aurangabad</h3>
+    <p>Established medical college with UG and PG medical programs.</p>
+    <a href="medical/mgm-aurangabad.html" class="read-more">Read More →</a>
+  </div>
+
+  <div class="college-card">
+    <h3>Krishna Institute of Medical Sciences</h3>
+    <p>Deemed university offering quality medical education.</p>
+    <a href="medical/krishna-institute.html" class="read-more">Read More →</a>
+  </div>
+
+  <div class="college-card">
+    <h3>Santosh Medical College, Ghaziabad</h3>
+    <p>Private deemed university with clinical exposure in NCR.</p>
+    <a href="medical/santosh.html" class="read-more">Read More →</a>
+  </div>
+
+  <div class="college-card">
+    <h3>Symbiosis Medical College for Women (SMCW), Pune</h3>
+    <p>Women-focused medical college under Symbiosis International University.</p>
+    <a href="medical/smcw.html" class="read-more">Read More →</a>
+  </div>
+
+  <div class="college-card">
+    <h3>Mahatma Gandhi Memorial Medical College, Indore</h3>
+    <p>One of the oldest government medical colleges in Madhya Pradesh.</p>
+    <a href="medical/mgm-indore.html" class="read-more">Read More →</a>
+  </div>
+
+  <div class="college-card">
+    <h3>Mahatma Gandhi Missions Medical College, Pondicherry</h3>
+    <p>Medical college known for academics and hospital training.</p>
+    <a href="medical/mgm-pondicherry.html" class="read-more">Read More →</a>
+  </div>
+
+  <div class="college-card">
+    <h3>Rural Medical College, Loni</h3>
+    <p>Role-model rural healthcare medical institution.</p>
+    <a href="medical/rural-loni.html" class="read-more">Read More →</a>
+  </div>
+</section>
+
+<footer>
+  © 2025 SmartPrepp. All rights reserved.
+</footer>
+
+
+</body>
+</html>
